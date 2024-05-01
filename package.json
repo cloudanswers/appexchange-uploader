@@ -1,6 +1,6 @@
 {
   "name": "@cloudanswers/appexchange-uploader",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "helper script to push gen1 packages to the appexchange",
   "main": "index.js",
   "bin": "index.js",
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/cloudanswers/appexchange-uploader#readme",
   "dependencies": {
-    "jsforce": "^1.11.0"
+    "jsforce": "^3.2.0"
   }
 }
