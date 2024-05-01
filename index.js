@@ -88,8 +88,8 @@ function waitUntilUploaded(id) {
       console.log("Status:", res.Status);
       if (res.Status == undefined) {
         throw new Error("Status not found on " + res);
-      } else if (res.Status == "IN_PROGRESS") {
-        console.log("Checking again...");
+      } else if (res.Status == "IN_PROGRESS" || res.Status == "QUEUED") {
+        console.log("Checking again... status:", res.Status);
         return waitUntilUploaded(id);
       } else {
         return res;

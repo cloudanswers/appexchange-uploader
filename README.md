@@ -1,4 +1,5 @@
 # appexchange-uploader
+
 helper script to push gen1 packages to the appexchange
 
 # usage
@@ -7,4 +8,3 @@ helper script to push gen1 packages to the appexchange
     SALESFORCE_PASSWORD=XXXXXXXX \
     GIT_SHA=`git rev-parse --short HEAD` \
     npx @cloudanswers/appexchange-uploader
-
