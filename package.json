@@ -1,6 +1,6 @@
 {
   "name": "@cloudanswers/appexchange-uploader",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "helper script to push gen1 packages to the appexchange",
   "main": "index.js",
   "bin": "index.js",
